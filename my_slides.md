@@ -12,7 +12,7 @@ Andrea Bonetti, DD.MM.YYYY
 
 # This is a long title and you can make it longer
 
-This is some text.
+This is some text. And you can have a <span style="color: #e7ad52;">colored</span> word.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis orci eget commodo volutpat. Suspendisse quis vulputate sapien. Mauris eget neque sem. Aliquam aliquet aliquam arcu, sit amet elementum enim ullamcorper in.
 
@@ -71,7 +71,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis orci eget 
 :::
 
 ::: right
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis orci eget commodo volutpat. Suspendisse quis vulputate sapien. Mauris eget neque sem. Aliquam aliquet aliquam arcu, sit amet elementum enim ullamcorper in.
 - Sed eleifend dolor nisl, vitae rutrum lacus tempus eget.
 - Cras fermentum auctor mi, nec rutrum augue varius in. Curabitur sodales tellus nisi. Nam volutpat, diam a sagittis eleifend, nulla est gravida purus, at semper augue tellus vitae ipsum.
 - Cras et nunc magna.
