@@ -7,7 +7,7 @@
 <% left %>
 </grid>
 
-<grid drag="100 100" drop="topleft" align="topleft" pad="50px 10px 10px 500px" >
+<grid drag="101 100" drop="topleft" align="topleft" pad="50px 10px 10px 500px" >
 <% right %>
 </grid>
 

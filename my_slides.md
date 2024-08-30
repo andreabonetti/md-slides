@@ -71,8 +71,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis orci eget 
 :::
 
 ::: right
-- Sed eleifend dolor nisl, vitae rutrum lacus tempus eget.
-- Cras fermentum auctor mi, nec rutrum augue varius in. Curabitur sodales tellus nisi. Nam volutpat, diam a sagittis eleifend, nulla est gravida purus, at semper augue tellus vitae ipsum.
-- Cras et nunc magna.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis orci eget commodo volutpat. Suspendisse quis vulputate sapien. Mauris eget neque sem. Aliquam aliquet aliquam arcu, sit amet elementum enim ullamcorper in. Integer sit amet purus malesuada, volutpat ipsum sed, interdum metus. Donec at convallis ex. Mauris non ante nibh. Duis id mollis elit. Donec egestas magna ut mi dictum, sit amet accumsan lorem blandit. Nulla facilisi. Praesent at nulla leo. Morbi pulvinar porta magna, vel iaculis leo ullamcorper quis. Nam vitae aliquet mauris.
 :::
 
