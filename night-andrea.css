@@ -21,7 +21,7 @@
     Impact,
     sans-serif;
   --r-heading-color: #eee;
-  --r-heading-line-height: 1.2;
+  --r-heading-line-height: 1.4;
   --r-heading-letter-spacing: -0.03em;
   --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
@@ -67,7 +67,7 @@
 }
 .reveal .slides section,
 .reveal .slides section > section {
-  line-height: 1.3;
+  line-height: var(--r-heading-line-height);
   font-weight: inherit;
 }
 .reveal h1,
@@ -131,7 +131,7 @@
 }
 .reveal p {
   margin: var(--r-block-margin) 0;
-  line-height: 2.0;
+  line-height: var(--r-heading-line-height);
 }
 .reveal h1:last-child,
 .reveal h2:last-child,
@@ -211,7 +211,7 @@
   text-align: left;
   font-size: 0.9em;
   font-family: var(--r-code-font);
-  line-height: 1.2em;
+  line-height: var(--r-heading-line-height);
   word-wrap: break-word;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
@@ -270,7 +270,7 @@
 .reveal small {
   display: inline-block;
   font-size: 0.6em;
-  line-height: 1.2em;
+  line-height: var(--r-heading-line-height);
   vertical-align: top;
 }
 .reveal small * {
