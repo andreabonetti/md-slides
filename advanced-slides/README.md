@@ -20,6 +20,6 @@ tpl_cover.md
 
 ## Create your presentation
 
-Copy and reuse the slide deck `my_slides.md` for your presentation.
+Copy and reuse the slide deck `slides.md` for your presentation.
 
 
