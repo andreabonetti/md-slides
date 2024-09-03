@@ -11,7 +11,7 @@ style: |
 
 # Title of this amazing presentation
 
-Andrea Bonetti, DD.MM.YYYY
+Your Name, DD.MM.YYYY
 
 ---
 
@@ -109,3 +109,18 @@ Tempore ad exercitationem necessitatibus nulla, optio distinctio illo non simili
 
 </div>
 </div>
+
+---
+
+# Playing with colors
+ 
+One can write a <span style="color:var(--gold);">gold</span> word.
+
+One can write a <span style="color:var(--love);">love</span> word.
+
+One can write a <span style="color:var(--rose);">rose</span> word.
+
+One can write a <span style="color:var(--pine);">pine</span> word.
+
+One can write a <span style="color:var(--iris);">iris</span> word.
+
