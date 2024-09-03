@@ -10,10 +10,10 @@ Add the list of `css` themes to `settings.json` of VSCode:
 {
     "_comment": "Other settings...",
     "markdown.marp.themes": [
-        "css/test.css"
-        "css/rose-pine.css"
-        "css/rose-pine-andrea.css"
-    ]
+        "css/test.css",
+        "css/rose-pine.css",
+        "css/rose-pine-andrea.css",
+    ],
 }
 ```
 
