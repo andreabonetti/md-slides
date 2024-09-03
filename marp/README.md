@@ -19,6 +19,7 @@ Add the list of `css` themes to `settings.json` of VSCode:
 
 Useful tools to install:
 - [Marp extension for VSCode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+    - In the extension settings, enable HTML.
 - [Marp Slides](https://obsidian.md/plugins?id=marp-slides), a Marp plugin for [Obsidian](https://obsidian.md/)
 
 

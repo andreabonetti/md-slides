@@ -46,6 +46,7 @@ palette in :root
 
     background-color: var(--base);
 }
+
 /* Common style */
 h1 {
     color: var(--rose);
