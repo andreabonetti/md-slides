@@ -28,11 +28,15 @@ palette in :root
     --highlight-muted: #403d52;
     --highlight-high: #524f67;
 
+    --h1-size: 34pt;
+    --h2-size: 22pt;
+
     --text-size: 20pt;
     --text-weight: 300;
 
     --table-text-size: 14pt;
     --table-header-size: 16pt;
+    --table-line-color: #333;
 
     --code-size: 14pt;
     --code-block-size: 14pt;
@@ -50,23 +54,27 @@ palette in :root
 /* Common style */
 h1 {
     color: var(--rose);
-    /* padding-bottom: 2mm; */
-    /* margin-bottom: 12mm; */
+    font-size: var(--h1-size);
 }
 h2 {
     color: var(--rose);
+    font-size: var(--h2-size);
 }
 h3 {
     color: var(--rose);
+    font-size: var(--h2-size);
 }
 h4 {
     color: var(--rose);
+    font-size: var(--h2-size);
 }
 h5 {
     color: var(--rose);
+    font-size: var(--h2-size);
 }
 h6 {
     color: var(--rose);
+    font-size: var(--h2-size);
 }
 a {
     color: var(--iris);
@@ -115,7 +123,6 @@ marp-pre {
 
 /* Style the table itself */
 table {
-    background-color: var(--base); /*Change the background color of the table*/
     width: 100%; /*Optional: to make the table take up the full width of its container*/
 }
   
@@ -126,11 +133,14 @@ table th {
     font-size: var(--table-header-size); /* Increase the font size of the headers */
     padding: 10px; /* Add some padding to make the headers look better */
     text-align: left; /* Align the text in the headers */
+    border: 1px solid var(--table-line-color); /* Add a light gray border around each cell */
 }
 
 /* Style the table data (td) */
 table td {
-    border: 1px solid #ddd; /* Add a light gray border around each cell */
+    background-color: var(--base); /*Change the background color of the table*/
+    color: var(--text);
+    border: 1px solid var(--table-line-color); /* Add a light gray border around each cell */
     padding: 10px; /* Add some padding to make the cells look better */
     font-size: var(--table-text-size); /* Increase the font size of the table data */
 }
