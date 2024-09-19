@@ -17,7 +17,7 @@ Your Name, DD.MM.YYYY
 
 # This is a long title and you can make it longer
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis orci eget commodo volutpat. Suspendisse quis vulputate sapien. Mauris eget neque sem. Aliquam aliquet aliquam arcu, sit amet elementum enim ullamcorper in.
+**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Ut convallis orci eget commodo volutpat. Suspendisse quis vulputate sapien. Mauris eget neque sem. Aliquam aliquet aliquam arcu, sit amet elementum enim ullamcorper in.
 
 Integer sit amet purus malesuada, volutpat ipsum sed, interdum metus. Donec at convallis ex. Mauris non ante nibh. Duis id mollis elit. Donec egestas magna ut mi dictum, sit amet accumsan lorem blandit. Nulla facilisi.
 
