@@ -29,3 +29,15 @@ How to:
 - Copy the folder `css` to your workplace if you're working with the Marp extension for VSCode.
 - Copy and reuse the slide deck `slides.md` for your presentation.
 
+## CLI commands
+
+Create html:
+```
+marp slides.md --theme css/rose-pine-andrea.css
+```
+
+Create pdf:
+```
+marp slides.md --theme css/rose-pine-andrea.css --pdf
+```
+
