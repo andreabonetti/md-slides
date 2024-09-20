@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: rose-pine-andrea
+theme: pink-dark
 style: |
   .columns {
     display: grid;
@@ -146,3 +146,4 @@ Photo by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyTex
 <br>
 
 Photos by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nikhil Dafare</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-colorful-ball-idVUh309DvA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+

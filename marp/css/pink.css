@@ -1,32 +1,30 @@
-/* @theme rose-pine-andrea */
-/*
-Modified version of:
-Rosé Pine theme create by RAINBOWFLESH
-> www.rosepinetheme.com
-
-palette in :root
-*/
+/* @theme pink */
 
 @import "default";
 @import "schema";
 @import "structure";
 
 :root {
-    --base: #191724;
+    --base: #ffffff;
+    --text: #0B0B0B;
+    --pink: #d2007b;
+    --light-pink: #ffe6f4;
+    --blue: #007bd2;
+    --violet: #c000d2;
+    --overlay: var(--base);
+    --highlight-muted: var(--light-pink);
+    --highlight-low: var(--light-pink);
+    --highlight-high: var(--pink);
+
     --surface: #1f1d2e;
-    --overlay: #26233a;
     --muted: #6e6a86;
     --subtle: #908caa;
-    --text: #e0def4;
     --love: #eb6f92;
     --gold: #f6c177;
     --rose: #ebbcba;
     --pine: #31748f;
     --foam: #9ccfd8;
     --iris: #c4a7e7;
-    --highlight-low: #21202e;
-    --highlight-muted: #403d52;
-    --highlight-high: #524f67;
 
     --h1-size: 32pt;
     --h2-size: 20pt;
@@ -65,14 +63,14 @@ palette in :root
 
 /* Common style */
 h1 {
-    color: var(--rose);
+    color: var(--pink);
     font-size: var(--h1-size);
     font-weight: var(--h1-font-weight);
     letter-spacing: var(--h1-letter-spacing);
     line-height: var(--h1-line-height);
 }
 h2 {
-    color: var(--rose);
+    color: var(--pink);
     font-size: var(--h2-size);
     font-weight: var(--h2-font-weight);
     letter-spacing: var(--h2-letter-spacing);
@@ -80,7 +78,7 @@ h2 {
 }
 a {
     /* anchor tags (links) */
-    color: var(--gold);
+    color: var(--pink);
 }
 p {
     /* paragraph */
@@ -91,7 +89,7 @@ p {
 code {
     font-size: var(--code-size);
     color: var(--text);
-    background-color: var(--highlight-muted);
+    background-color: var(--light-pink);
 }
 text {
     font-size: var(--text-size);
@@ -135,7 +133,7 @@ table {
   
 /* Style the table headers (th) */
 table th {
-    background-color: var(--surface); /* Change the background color of the headers */
+    background-color: var(--light-pink); /* Change the background color of the headers */
     color: var(--text); /* Change the text color of the headers */
     font-size: var(--table-header-size); /* Increase the font size of the headers */
     padding: 10px; /* Add some padding to make the headers look better */
