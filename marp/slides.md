@@ -19,7 +19,7 @@ Your Name, DD.MM.YYYY
 
 **Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Ut convallis orci eget commodo volutpat. Suspendisse quis vulputate sapien. Mauris eget neque sem. Aliquam aliquet aliquam arcu, sit amet elementum enim ullamcorper in.
 
-Integer sit amet purus malesuada, volutpat ipsum sed, interdum metus. Donec at convallis ex. Mauris non ante nibh. Duis id mollis elit. Donec egestas magna ut mi dictum, sit amet accumsan lorem blandit. Nulla facilisi.
+[This is a link](https://youtu.be/dQw4w9WgXcQ?si=RXYrD8JF9gv6tEqN). Integer sit amet purus malesuada, volutpat ipsum sed, interdum metus. Donec at convallis ex. Mauris non ante nibh. *Duis id mollis elit. Donec egestas magna ut mi dictum, sit amet accumsan lorem blandit*.
 
 A list:
 - Sed eleifend dolor nisl, vitae rutrum lacus tempus eget.
@@ -32,7 +32,7 @@ A list:
 
 This is a cool table:
 
-| Tables                                                                                            | Are                                                                   | Cool                               | !!!                                                                                               |
+| Tables                                                                                            | Are                                                                   | Really                               | Cool                                                                                               |
 | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis orci eget commodo volutpat. | Suspendisse quis vulputate sapien.                                    | Mauris eget neque sem.             | Aliquam aliquet aliquam arcu, sit amet elementum enim ullamcorper in.                             |
 | Aliquam aliquet aliquam arcu, sit amet elementum enim ullamcorper in.                             | Mauris eget neque sem.                                                | Suspendisse quis vulputate sapien. | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis orci eget commodo volutpat. |
@@ -79,13 +79,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-##### Takeaway one
+## Takeaway one
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-##### Takeaway two
+## Takeaway two
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-##### Takeaway three
+## Takeaway three
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
@@ -123,4 +123,3 @@ One can write a <span style="color:var(--rose);">rose</span> word.
 One can write a <span style="color:var(--pine);">pine</span> word.
 
 One can write a <span style="color:var(--iris);">iris</span> word.
-

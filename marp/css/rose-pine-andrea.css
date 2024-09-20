@@ -28,11 +28,20 @@ palette in :root
     --highlight-muted: #403d52;
     --highlight-high: #524f67;
 
-    --h1-size: 34pt;
-    --h2-size: 22pt;
+    --h1-size: 32pt;
+    --h2-size: 20pt;
 
-    --text-size: 20pt;
-    --text-weight: 400;
+    --h1-font-weight: 100;
+    --h2-font-weight: 100;
+
+    --h1-letter-spacing: -1.0px;
+    --h2-letter-spacing: -0.7px;
+
+    --h1-line-height: 70%; /* line spacing */
+    --h2-line-height: 30%; /* line spacing */
+    
+    --text-size: 18pt;
+    --text-weight: 300;
 
     --table-text-size: 14pt;
     --table-header-size: 16pt;
@@ -41,7 +50,9 @@ palette in :root
     --code-size: 14pt;
     --code-block-size: 14pt;
 
-    font-family: Pier Sans, ui-sans-serif, system-ui, -apple-system,
+    line-height: 110%; /* line spacing */
+
+    font-family: Helvetica, Pier Sans, ui-sans-serif, system-ui, -apple-system,
         BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol,
         "Noto Color Emoji";
@@ -49,37 +60,30 @@ palette in :root
     font-weight: initial;
 
     background-color: var(--base);
+
 }
 
 /* Common style */
 h1 {
     color: var(--rose);
     font-size: var(--h1-size);
+    font-weight: var(--h1-font-weight);
+    letter-spacing: var(--h1-letter-spacing);
+    line-height: var(--h1-line-height);
 }
 h2 {
     color: var(--rose);
     font-size: var(--h2-size);
-}
-h3 {
-    color: var(--rose);
-    font-size: var(--h2-size);
-}
-h4 {
-    color: var(--rose);
-    font-size: var(--h2-size);
-}
-h5 {
-    color: var(--rose);
-    font-size: var(--h2-size);
-}
-h6 {
-    color: var(--rose);
-    font-size: var(--h2-size);
+    font-weight: var(--h2-font-weight);
+    letter-spacing: var(--h2-letter-spacing);
+    line-height: var(--h2-line-height);
 }
 a {
-    color: var(--iris);
+    /* anchor tags (links) */
+    color: var(--gold);
 }
 p {
+    /* paragraph */
     font-size: var(--text-size);
     font-weight: var(--text-weight);
     color: var(--text);
@@ -95,11 +99,13 @@ text {
     color: var(--text);
 }
 ul {
+    /* unordered lists */
     font-size: var(--text-size);
     font-weight: var(--text-weight);
     color: var(--text);
 }
 li {
+    /* list item */
     font-size: var(--text-size);
     font-weight: var(--text-weight);
     color: var(--text);
@@ -108,9 +114,10 @@ img {
     background-color: var(--highlight-low);
 }
 strong {
+    /* bold */
     color: var(--text);
     font-weight: inherit;
-    font-weight: 800;
+    font-weight: 900;
 }
 mjx-container {
     color: var(--text);

@@ -31,6 +31,8 @@ How to:
 
 ## CLI commands
 
+Install command-line marp by following [these instructions](https://github.com/marp-team/marp-cli?tab=readme-ov-file#install).
+
 Create html:
 ```
 marp slides.md --theme css/rose-pine-andrea.css
