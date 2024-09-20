@@ -68,11 +68,11 @@ def my_function():
 
 Typically, I would expect to have only H1 and H2 in a slide.
 
-## So this might be the first subsection
+## First subsection
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-## And this is the second subsection
+## Second subsection
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
@@ -123,3 +123,26 @@ One can write a <span style="color:var(--rose);">rose</span> word.
 One can write a <span style="color:var(--pine);">pine</span> word.
 
 One can write a <span style="color:var(--iris);">iris</span> word.
+
+---
+
+
+<center>
+
+<img src="pics/nikhil-dafare-Z2-fNSX4zjI-unsplash.jpg" width="350"/>
+
+<br><br>
+
+Photo by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nikhil Dafare</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-colorful-ball-idVUh309DvA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+</center>
+
+---
+
+<img src="pics/nikhil-dafare-Z2-fNSX4zjI-unsplash.jpg" width="200"/> <img src="pics/nikhil-dafare-idVUh309DvA-unsplash.jpg" width="200"/> 
+
+
+
+<br>
+
+Photos by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nikhil Dafare</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-colorful-ball-idVUh309DvA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
