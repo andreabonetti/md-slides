@@ -43,3 +43,16 @@ Create pdf:
 marp slides.md --theme css/rose-pine-andrea.css --pdf
 ```
 
+## Examples
+
+`rose-pine-andrea`
+
+<img src="export/slides-rose.png" width="200"/> 
+
+`pink`
+
+<img src="export/slides-pink.png" width="200"/> 
+
+`pink-dark`
+
+<img src="export/slides-pink-dark.png" width="200"/> 
