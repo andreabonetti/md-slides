@@ -52,6 +52,18 @@ marp --theme css/pink.css --html slides.md --preview
 
 ## Examples
 
+### Markdown code
+
+```
+---
+
+# Title of this amazing presentation
+
+Your Name, DD.MM.YYYY
+```
+
+### Generated slide for different themes
+
 `rose-pine-andrea`
 
 <img src="export/slides-rose.png" width="700"/> 
