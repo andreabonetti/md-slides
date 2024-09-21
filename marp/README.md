@@ -13,6 +13,8 @@ Add the list of `css` themes to `settings.json` of VSCode:
         "css/test.css",
         "css/rose-pine.css",
         "css/rose-pine-andrea.css",
+        "css/pink.css",
+        "css/pink.css",
     ],
 }
 ```
