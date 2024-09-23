@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: pink-dark
+theme: pink
 style: |
   .columns {
     display: grid;
