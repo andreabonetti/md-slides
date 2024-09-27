@@ -35,8 +35,8 @@
     --h1-letter-spacing: -1.0px;
     --h2-letter-spacing: -0.7px;
 
-    --h1-line-height: 70%; /* line spacing */
-    --h2-line-height: 30%; /* line spacing */
+    --h1-line-height: 100%; /* line spacing */
+    --h2-line-height: 100%; /* line spacing */
     
     --text-size: 18pt;
     --text-weight: 300;
