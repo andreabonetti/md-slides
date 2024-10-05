@@ -42,7 +42,7 @@ marp --theme css/pink.css --html slides.md
 
 Create pdf:
 ```
-marp --theme css/pink.css --html slides.md --pdf
+marp --theme css/pink.css --html slides.md --pdf --allow-local-files
 ```
 
 Open preview:
