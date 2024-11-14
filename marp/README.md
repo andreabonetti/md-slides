@@ -37,17 +37,17 @@ Install command-line marp by following [these instructions](https://github.com/m
 
 Create html:
 ```
-marp --theme css/pink.css --html slides.md 
+marp slides.md --theme css/pink.css
 ```
 
 Create pdf:
 ```
-marp --theme css/pink.css --html slides.md --pdf --allow-local-files
+marp slides.md --theme css/pink.css --pdf --allow-local-files
 ```
 
 Open preview:
 ```
-marp --theme css/pink.css --html slides.md --preview
+marp slides.md --theme css/pink.css --preview
 ```
 
 ## Examples
