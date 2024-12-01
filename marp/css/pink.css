@@ -39,7 +39,8 @@
     --h2-line-height: 100%; /* line spacing */
     
     --text-size: 18pt;
-    --text-weight: 300;
+    --text-weight: 350;
+    --text-bold-weight: 600;
 
     --table-text-size: 14pt;
     --table-header-size: 16pt;
@@ -114,8 +115,7 @@ img {
 strong {
     /* bold */
     color: var(--text);
-    font-weight: inherit;
-    font-weight: 900;
+    font-weight: var(--text-bold-weight);
 }
 mjx-container {
     color: var(--text);
@@ -171,10 +171,10 @@ pre {
     color: var(--subtle);
 }
 .hljs-string {
-    color: var(--gold);
+    color: var(--subtle);
 }
 .hljs-title {
-    color: var(--foam);
+    color: var(--love);
 }
 .hljs-keyword {
     color: var(--pine);
@@ -189,10 +189,10 @@ pre {
     color: var(--love);
 }
 .hljs-number {
-    color: var(--gold);
+    color: var(--subtle);
 }
 .hljs-built_in {
-    color: var(--love);
+    color: var(--pine);
 }
 .hljs-params {
     color: var(--iris);

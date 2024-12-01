@@ -33,7 +33,6 @@ A list:
 ## The same can be done for h2. Let's try to fit a very long sentence, to see how the new line is generated
 
 
-
 ---
 
 # And now a table
@@ -65,8 +64,9 @@ And then you can also use `my_package` in a sentence.
 More code:
 ```python
 def my_function():
-	print('Hello')
-	print('World')
+  print('Hello')
+  a = 1
+  b = a + 2
 ```
 
 
