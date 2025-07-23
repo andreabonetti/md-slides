@@ -1,0 +1,212 @@
+/* @theme black */
+/*
+Modified version of:
+Rosé Pine theme create by RAINBOWFLESH
+> www.rosepinetheme.com
+
+palette in :root
+*/
+
+@import "default";
+@import "schema";
+@import "structure";
+
+:root {
+    --base: #000000;
+    /* --base: #0f0f0f; */
+    --surface: #0f0f0f;
+    --overlay: #111111;
+    --muted: #aaaaaa;
+    --subtle: #cccccc;
+    --text: #cccccc;
+
+    --white: #cccccc; 
+    --love: #ff6f91;              /* adjusted for black background */
+    --gold: #f6c177;
+    --rose: #ffb6b3;
+    --pine: #4aa3c3;
+    --foam: #aee7ef;
+    --iris: #d6b0ff;
+
+    --highlight-low: #111;        /* very dark gray */
+    --highlight-muted: #222;
+    --highlight-high: #333;
+
+    --h1-size: 40pt;
+    --h2-size: 20pt;
+
+    --h1-font-weight: 100;
+    --h2-font-weight: 100;
+
+    --h1-letter-spacing: -1.0px;
+    --h2-letter-spacing: -0.7px;
+
+    --h1-line-height: 100%; /* line spacing */
+    --h2-line-height: 100%; /* line spacing */
+    
+    --text-size: 18pt;
+    --text-weight: 300;
+
+    --table-text-size: 14pt;
+    --table-header-size: 16pt;
+    --table-line-color: #333;
+
+    --code-size: 14pt;
+    --code-block-size: 14pt;
+
+    line-height: 110%; /* line spacing */
+
+    font-family: Helvetica, Pier Sans, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol,
+        "Noto Color Emoji";
+
+    font-weight: initial;
+
+    background-color: var(--base);
+
+}
+
+/* Common style */
+h1 {
+    color: var(--white);
+    font-size: var(--h1-size);
+    font-weight: var(--h1-font-weight);
+    letter-spacing: var(--h1-letter-spacing);
+    line-height: var(--h1-line-height);
+}
+h2 {
+    color: var(--love);
+    font-size: var(--h2-size);
+    font-weight: var(--h2-font-weight);
+    letter-spacing: var(--h2-letter-spacing);
+    line-height: var(--h2-line-height);
+}
+a {
+    /* anchor tags (links) */
+    color: var(--love);
+}
+p {
+    /* paragraph */
+    font-size: var(--text-size);
+    font-weight: var(--text-weight);
+    color: var(--text);
+}
+code {
+    font-size: var(--code-size);
+    color: var(--text);
+    background-color: var(--highlight-muted);
+}
+text {
+    font-size: var(--text-size);
+    font-weight: var(--text-weight);
+    color: var(--text);
+}
+ul {
+    /* unordered lists */
+    font-size: var(--text-size);
+    font-weight: var(--text-weight);
+    color: var(--text);
+}
+li {
+    /* list item */
+    font-size: var(--text-size);
+    font-weight: var(--text-weight);
+    color: var(--text);
+}
+img {
+    background-color: var(--highlight-low);
+}
+strong {
+    /* bold */
+    color: var(--text);
+    font-weight: inherit;
+    font-weight: 900;
+}
+mjx-container {
+    color: var(--text);
+}
+marp-pre {
+    background-color: var(--overlay);
+    border-color: var(--highlight-high);
+}
+
+
+/* Style the table itself */
+table {
+    width: 100%; /*Optional: to make the table take up the full width of its container*/
+}
+  
+/* Style the table headers (th) */
+table th {
+    background-color: var(--surface); /* Change the background color of the headers */
+    color: var(--text); /* Change the text color of the headers */
+    font-size: var(--table-header-size); /* Increase the font size of the headers */
+    padding: 10px; /* Add some padding to make the headers look better */
+    text-align: left; /* Align the text in the headers */
+    border: 1px solid var(--table-line-color); /* Add a light gray border around each cell */
+}
+
+/* Style the table data (td) */
+table td {
+    background-color: var(--base); /*Change the background color of the table*/
+    color: var(--text);
+    border: 1px solid var(--table-line-color); /* Add a light gray border around each cell */
+    padding: 10px; /* Add some padding to make the cells look better */
+    font-size: var(--table-text-size); /* Increase the font size of the table data */
+}
+
+/* Optional: Style the table rows on hover */
+table tr:hover {
+    background-color: #f5f5f5; /* Change the background color of the row on hover */
+}
+
+/* code block*/
+pre {
+    font-size: var(--code-block-size);
+}
+
+/* Code blok */
+.hljs-comment {
+    color: var(--muted);
+}
+.hljs-attr {
+    color: var(--foam);
+}
+.hljs-punctuation {
+    color: var(--subtle);
+}
+.hljs-string {
+    color: var(--gold);
+}
+.hljs-title {
+    color: var(--foam);
+}
+.hljs-keyword {
+    color: var(--pine);
+}
+.hljs-variable {
+    color: var(--text);
+}
+.hljs-literal {
+    color: var(--rose);
+}
+.hljs-type {
+    color: var(--love);
+}
+.hljs-number {
+    color: var(--gold);
+}
+.hljs-built_in {
+    color: var(--love);
+}
+.hljs-params {
+    color: var(--iris);
+}
+.hljs-symbol {
+    color: var(--foam);
+}
+.hljs-meta {
+    color: var(--subtle);
+}
+
