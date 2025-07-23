@@ -13,7 +13,6 @@ palette in :root
 
 :root {
     --base: #000000;
-    /* --base: #0f0f0f; */
     --surface: #0f0f0f;
     --overlay: #111111;
     --muted: #aaaaaa;

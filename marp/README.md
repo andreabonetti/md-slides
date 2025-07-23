@@ -75,3 +75,7 @@ Your Name, DD.MM.YYYY
 `pink-dark`
 
 <img src="export/slides-pink-dark.png" width="700"/> 
+
+`black`
+
+<img src="export/slides-black.png" width="700"/> 
