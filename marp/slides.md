@@ -5,7 +5,8 @@ style: |
   .columns {
     display: grid;
     grid-template-columns: repeat(var(--cols, 2), minmax(0, 1fr));
-    gap: 1rem;
+  row-gap: var(--row-gap, 0px);
+  column-gap: var(--col-gap, 30px);
   }
   .full-bleed {
     position: absolute;
