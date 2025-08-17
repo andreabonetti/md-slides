@@ -4,7 +4,7 @@ theme: pink
 style: |
   .columns {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(var(--cols, 2), minmax(0, 1fr));
     gap: 1rem;
   }
 ---
@@ -101,22 +101,70 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Multi columns in Marp slide
 
-<div class="columns">
-<div>
+## 2-column table:
 
-## Column 1
+<div class="columns" style="--cols: 2;">
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eveniet, corporis commodi vitae accusamus obcaecati dolor corrupti eaque id numquam officia velit sapiente incidunt dolores provident laboriosam praesentium nobis culpa.
+  <div>
+
+  **Column 1**
+
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+  </div>
+  <div>
+
+  **Column 2**
+
+  Tempore ad exercitationem necessitatibus nulla, optio distinctio illo non similique?
+
+  </div>
+  
+</div>
+
+
+## 3-column table:
+
+<div class="columns" style="--cols: 3;">
+
+  <div>
+
+  **Column 1**
+
+  </div>
+
+  <div>
+
+  **Column 2**
+  
+  </div>
+
+  <div>
+
+  **Column 3**
+  
+  </div>
+
+  <div>
+  
+  Some text
+  
+  </div>
+  
+  <div>
+  
+  More text
+  
+  </div>
+
+  <div>
+  
+  Did I forget any text?
+  
+  </div>
 
 </div>
-<div>
 
-## Column 2
-
-Tempore ad exercitationem necessitatibus nulla, optio distinctio illo non similique? Laborum dolor odio, ipsam incidunt corrupti quia nemo quo exercitationem adipisci quidem nesciunt deserunt repellendus inventore deleniti reprehenderit at earum.
-
-</div>
-</div>
 
 ---
 
