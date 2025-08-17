@@ -7,6 +7,26 @@ style: |
     grid-template-columns: repeat(var(--cols, 2), minmax(0, 1fr));
     gap: 1rem;
   }
+  .full-bleed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .full-bleed img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* scale without distortion */
+    border-radius: 0;  /* remove rounded corners */
+    box-shadow: none;  /* remove shadows if you want */
+  }
+  .border-and-shadow {
+    border-radius: 12px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,0.8);
+  }
 ---
 
 # Title of this amazing presentation
@@ -180,12 +200,25 @@ One can write a <span style="color:var(--pine);">pine</span> word.
 
 One can write a <span style="color:var(--iris);">iris</span> word.
 
+
 ---
 
+# Images
+
+<img src="pics/nikhil-dafare-Z2-fNSX4zjI-unsplash.jpg" width="200"/> <img src="pics/nikhil-dafare-idVUh309DvA-unsplash.jpg" width="200"/> 
+
+<br>
+
+Photos by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nikhil Dafare</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-colorful-ball-idVUh309DvA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+
+---
+
+# Image with border and shadow
 
 <center>
 
-<img src="pics/nikhil-dafare-Z2-fNSX4zjI-unsplash.jpg" width="350"/>
+<img src="pics/nikhil-dafare-Z2-fNSX4zjI-unsplash.jpg" width="300" class="border-and-shadow"/>
 
 <br><br>
 
@@ -193,13 +226,26 @@ Photo by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyTex
 
 </center>
 
+
+
 ---
 
-<img src="pics/nikhil-dafare-Z2-fNSX4zjI-unsplash.jpg" width="200"/> <img src="pics/nikhil-dafare-idVUh309DvA-unsplash.jpg" width="200"/> 
+# Full-bleed image
+
+Next slide...
+
+---
+
+<div class="full-bleed">
+  <img src="pics/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg">
+</div>
+
+---
 
 
+<img src="pics/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" width="700" class="border-and-shadow"/>
 
-<br>
 
-Photos by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nikhil Dafare</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-colorful-ball-idVUh309DvA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+---
 
+The end
