@@ -216,16 +216,15 @@ Photos by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyTe
 
 # Image with border and shadow
 
+Photo by <a href="https://unsplash.com/@kalenemsley?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kalen Emsley</a> on <a href="https://unsplash.com/photos/green-mountain-across-body-of-water-Bkci_8qcdvQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+<br>
+
 <center>
 
-<img src="pics/nikhil-dafare-Z2-fNSX4zjI-unsplash.jpg" width="300" class="border-and-shadow"/>
-
-<br><br>
-
-Photo by <a href="https://unsplash.com/@designingsucks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nikhil Dafare</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-colorful-ball-idVUh309DvA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+<img src="pics/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" width="600" class="border-and-shadow"/>
 
 </center>
-
 
 
 ---
@@ -243,12 +242,4 @@ Photo by <a href="https://unsplash.com/@kalenemsley?utm_content=creditCopyText&u
   <img src="pics/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg">
 </div>
 
----
 
-
-<img src="pics/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" width="700" class="border-and-shadow"/>
-
-
----
-
-The end
