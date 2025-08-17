@@ -41,6 +41,8 @@ palette in :root
     --h2-line-height: 100%; /* line spacing */
     
     --text-size: 18pt;
+    --text-size-small: 12pt;
+    --text-size-large: 24pt;
     --text-weight: 300;
 
     --table-text-size: 14pt;
@@ -127,6 +129,15 @@ marp-pre {
     border-color: var(--highlight-high);
 }
 
+/* Custom text */
+.small-text {
+  font-size: var(--text-size-small);
+  font-weight: var(--text-weight);
+}
+.large-text {
+  font-size: var(--text-size-large);
+  font-weight: var(--text-weight);
+}
 
 /* Style the table itself */
 table {

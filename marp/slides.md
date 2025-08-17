@@ -203,6 +203,20 @@ One can write a <span style="color:var(--iris);">iris</span> word.
 
 ---
 
+# Text of different font sizes
+
+<span class="large-text">This is large text.</span>
+This is normal text.
+<span class="small-text">This is small text.</span>
+
+<br>
+
+Let's now mix <span class="large-text">large text</span>, normal text, and <span class="small-text">small text.</span>
+
+
+
+---
+
 # Images
 
 <img src="pics/nikhil-dafare-Z2-fNSX4zjI-unsplash.jpg" width="200"/> <img src="pics/nikhil-dafare-idVUh309DvA-unsplash.jpg" width="200"/> 
