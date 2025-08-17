@@ -5,6 +5,7 @@
 @import "structure";
 
 :root {
+    /* colors */
     --base: #ffffff;
     --text: #0B0B0B;
     --pink: #d2007b;
@@ -15,7 +16,6 @@
     --highlight-muted: var(--light-pink);
     --highlight-low: var(--light-pink);
     --highlight-high: var(--pink);
-
     --surface: #1f1d2e;
     --muted: #6e6a86;
     --subtle: #908caa;
@@ -26,33 +26,38 @@
     --foam: #9ccfd8;
     --iris: #c4a7e7;
 
+    /* text size */
     --h1-size: 32pt;
     --h2-size: 20pt;
-
-    --h1-font-weight: 100;
-    --h2-font-weight: 100;
-
-    --h1-letter-spacing: -1.0px;
-    --h2-letter-spacing: -0.7px;
-
-    --h1-line-height: 100%; /* line spacing */
-    --h2-line-height: 100%; /* line spacing */
-    
     --text-size: 18pt;
     --text-size-small: 12pt;
     --text-size-large: 24pt;
+
+    /* headers */
+    --h1-font-weight: 100;
+    --h2-font-weight: 100;
+    --h1-letter-spacing: -1.0px;
+    --h2-letter-spacing: -0.7px;
+
+    /* line spacing */
+    --h1-line-height: 110%;
+    --h2-line-height: 110%;
+    line-height: 110%; 
+
+    /* text weight */
     --text-weight: 350;
     --text-bold-weight: 600;
 
+    /* table */
     --table-text-size: 14pt;
     --table-header-size: 16pt;
     --table-line-color: #333;
 
+    /* code */
     --code-size: 14pt;
     --code-block-size: 14pt;
 
-    line-height: 110%; /* line spacing */
-
+    /* font */
     font-family: Helvetica, Pier Sans, ui-sans-serif, system-ui, -apple-system,
         BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol,
