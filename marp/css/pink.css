@@ -215,3 +215,15 @@ pre {
     color: var(--subtle);
 }
 
+/* Pink background slide */
+section.pink-slide {
+  background-color: var(--pink);
+  color: #fff;
+}
+
+section.pink-slide h1,
+section.pink-slide h2,
+section.pink-slide p,
+section.pink-slide li {
+  color: #fff;
+}
